@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import ParticlesBg from 'particles-bg'
 import Fade from 'react-reveal'
+import icon from './icon'
+import gif from './react.png'
 
 class Header extends Component {
   render() {
@@ -11,9 +13,41 @@ class Header extends Component {
     const name = this.props.data.name
     const description = this.props.data.description
 
+    let config = {
+      num: [1, 1],
+      rps: 0.1,
+      radius: [50, 100],
+      life: [1.5, 3],
+      v: [2, 3],
+      tha: [-50, 50],
+      alpha: [0.2, 5],
+      scale: [2, 2],
+      body: gif,
+      position: 'all',
+      //color: ["random", "#ff0000"],
+      cross: 'bround',
+      random: 5,
+    }
+
+    let config2 = {
+      num: [4, 7],
+      rps: 0.1,
+      radius: [5, 40],
+      life: [1.5, 3],
+      v: [2, 3],
+      tha: [-40, 40],
+      alpha: [0.6, 0],
+      scale: [0.1, 0.4],
+      position: 'all',
+      color: ['random', '#ff0000'],
+      cross: 'dead',
+      // emitter: "follow",
+      random: 15,
+    }
+
     return (
       <header id="home">
-        <ParticlesBg type="Circle" bg={true} />
+        <ParticlesBg type="custom" config={config} bg={true} />
 
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
