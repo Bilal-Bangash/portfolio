@@ -1,0 +1,192 @@
+{
+  "main": {
+    "name": "Muhammad Bilal Bangash",
+    "description": "Skilled Front-End Developer with a focus on React and TypeScript, excelling in creating responsive, high-performance web applications. Passionate about using cutting-edge technologies to improve user experiences and streamline development processes.",
+    "image": "profilepic.jpg",
+    "bio": "Hello! I'm a seasoned Front-End Developer with expertise in React and TypeScript, specialized in crafting responsive and high-performance web applications. My passion for design and technology merges with a strong computer science background, enabling me to deliver compelling user experiences and innovative solutions. I thrive in collaborative environments, constantly advancing my skills to stay at the forefront of web development trends. I'm driven to leverage my technical prowess to contribute effectively to projects and help businesses excel in the digital landscape.",
+    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "muhammadbilalbangash@hotmail.com",
+    "phone": "+92-311-1808482",
+    "github": "https://github.com/Bilal-Bangash",
+    "project": "https://github.com/nordicgiant2/react-nice-resume",
+    "address": {
+      "street": "H#306 People Colony",
+      "city": "Attock",
+      "state": "Punjab, Pakistan",
+      "zip": "43600"
+    },
+    "website": "https://registry.jsonresume.org/Bilal-Bangash",
+    "resumedownload": "https://registry.jsonresume.org/Bilal-Bangash",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://github.com/nordicgiant2/react-nice-resume",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "twitter",
+        "url": "http://twitter.com",
+        "className": "fa fa-twitter"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/tim-baker-8420009a/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "http://instagram.com/tbaker_x",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/nordicgiant2/react-nice-resume",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "education": [
+      {
+        "school": "PMAS Arid Agriculture University, Rawalpindi, Pakistan",
+        "degree": "Bachelor of Science in Computer Science",
+        "graduated": "July 2019",
+        "description": "During my Bachelor of Science in Computer Science at Pir Mehr Ali Shah Arid University, I gained a robust foundation in programming, data structures, and algorithms, enhancing my analytical and problem-solving skills. This rigorous education prepared me to tackle complex software development challenges and fostered a deep understanding of both theoretical and practical aspects of modern computing."
+      }
+    ],
+    "work": [
+      {
+        "company": "Salezilla ",
+        "Location": "Remote, United States",
+        "title": "Full Stack Engineer",
+        "years": "January 2023 - Present",
+        "description": "I spearheaded full-stack development, enhancing user-backend interactions with innovative features like ChatGPT that boosted lead generation by 20%. My work involved developing user-friendly interfaces using React and TypeScript, integrating AWS and Google Cloud services to scale and enhance reliability, and actively participating in code reviews to uphold high standards of code quality."
+      },
+      {
+        "company": "Sirma Solutions",
+        "title": "Software Engineer",
+        "years": "June 2021 - January 2023",
+        "description": "I led front-end development for a dealership website using React to craft intuitive and responsive user interfaces, and integrated RESTful APIs to enhance functionality. My leadership in Docker integration streamlined development and production environments, improving deployment workflows and system reliability, while employing Git and GitLab ensured top-notch code quality and fostered collaborative teamwork."
+      },
+      {
+        "company": "CareCloud (Acquired by MTBC)",
+        "title": "Software Engineer",
+        "years": "September 2019 - June 2021",
+        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      },
+      {
+        "company": "Web Developer",
+        "title": "Web Developer",
+        "years": "April 2019 - February 2020",
+        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      }
+    ],
+    "skills": [
+      {
+        "name": "JavaScript",
+        "level": "80%"
+      },
+      {
+        "name": "TypeScript",
+        "level": "70%"
+      },
+      {
+        "name": "ReactJs",
+        "level": "100%"
+      },
+      {
+        "name": "Gatsby",
+        "level": "80%"
+      },
+      {
+        "name": "Next",
+        "level": "80%"
+      },
+      {
+        "name": "CSS",
+        "level": "90%"
+      },
+      {
+        "name": "Node",
+        "level": "60%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Qore AI",
+        "category": "My Travel Blog for my post-university travels",
+        "image": "01.jpg",
+        "url": "https://www.canadianwanderlust.com"
+      },
+      {
+        "title": "Fury Fighting Gear",
+        "category": "(offline now) A fighting gear company I started",
+        "image": "02.jpg",
+        "url": "http://www.timbakerdev.com"
+      },
+      {
+        "title": "Original Thai Food",
+        "category": "Website I built for a restaurant I like in Thailand",
+        "image": "03.jpg",
+        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title": "Resume Website",
+        "category": "A React based resume website template",
+        "image": "04.jpg",
+        "url": "http://www.timbakerdev.com"
+      },
+      {
+        "title": "Smirkspace",
+        "category": "(MVP Only) A React and Meteor based chat University project.",
+        "image": "05.jpg",
+        "url": "http://www.smirkspace.com"
+      },
+      {
+        "title": "Canadian Wanderlust",
+        "category": "My Travel Blog for my post-university travels",
+        "image": "06.jpg",
+        "url": "https://www.canadianwanderlust.com"
+      },
+      {
+        "title": "Fury Fighting Gear",
+        "category": "(offline now) A fighting gear company I started",
+        "image": "01.jpg",
+        "url": "http://www.timbakerdev.com"
+      },
+      {
+        "title": "Original Thai Food",
+        "category": "Website I built for a restaurant I like in Thailand",
+        "image": "02.jpg",
+        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title": "Original Thai Food",
+        "category": "Website I built for a restaurant I like in Thailand",
+        "image": "03.jpg",
+        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title": "Resume Website",
+        "category": "A React based resume website template",
+        "image": "04.jpg",
+        "url": "http://www.timbakerdev.com"
+      },
+      {
+        "title": "Smirkspace",
+        "category": "(MVP Only) A React and Meteor based chat University project.",
+        "image": "05.jpg",
+        "url": "http://www.smirkspace.com"
+      },
+      {
+        "title": "Canadian Wanderlust",
+        "category": "My Travel Blog for my post-university travels",
+        "image": "06.jpg",
+        "url": "https://www.canadianwanderlust.com"
+      }
+    ]
+  }
+}
