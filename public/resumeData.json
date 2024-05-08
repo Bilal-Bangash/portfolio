@@ -46,7 +46,7 @@
     ]
   },
   "resume": {
-    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage": "Empowering digital landscapes with proficient front-end development, I harness JavaScript, TypeScript, React, Gatsby, and Next.js to deliver responsive, user-centric web applications.",
     "education": [
       {
         "school": "PMAS Arid Agriculture University, Rawalpindi, Pakistan",
@@ -73,43 +73,149 @@
         "company": "CareCloud (Acquired by MTBC)",
         "title": "Software Engineer",
         "years": "September 2019 - June 2021",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description": "I developed and maintained scalable React components, enhancing the user experience across various applications, and led the integration of GraphQL services to significantly boost data querying capabilities and performance. My integration of Docker and Kubernetes streamlined CI/CD pipelines and supported microservices architecture, while close collaboration with backend teams ensured seamless integration of RESTful APIs for optimized system functionality."
       },
       {
         "company": "Web Developer",
         "title": "Web Developer",
         "years": "April 2019 - February 2020",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description": "I spearheaded the development of a real-time inventory web app, a tournament scheduler, and an online learning platform, using React for the frontend and Node.js for the backend, significantly enhancing operational efficiency and user engagement. Additionally, I performed browser-based debugging and conducted performance testing to ensure these applications met rigorous front-end performance standards."
       }
     ],
     "skills": [
       {
-        "name": "JavaScript",
-        "level": "80%"
+        "skill": "javascript",
+        "logo": "javascript-original"
       },
       {
-        "name": "TypeScript",
-        "level": "70%"
+        "skill": "typescript",
+        "logo": "typescript-original"
       },
       {
-        "name": "ReactJs",
-        "level": "100%"
+        "skill": "html5",
+        "logo": "html5-plain-wordmark"
       },
       {
-        "name": "Gatsby",
-        "level": "80%"
+        "skill": "css3",
+        "logo": "css3-original-wordmark"
       },
       {
-        "name": "Next",
-        "level": "80%"
+        "skill": "sass",
+        "logo": "sass-original"
       },
       {
-        "name": "CSS",
-        "level": "90%"
+        "skill": "react",
+        "logo": "react-original-wordmark"
       },
       {
-        "name": "Node",
-        "level": "60%"
+        "skill": "gatsby",
+        "logo": "gatsby-original"
+      },
+
+      {
+        "skill": "nextjs",
+        "logo": "nextjs-original"
+      },
+      {
+        "skill": "redux",
+        "logo": "redux-original"
+      },
+      {
+        "skill": "storybook",
+        "logo": "storybook-original"
+      },
+      {
+        "skill": "bootstrap",
+        "logo": "bootstrap-original-wordmark"
+      },
+      {
+        "skill": "materialui",
+        "logo": "materialui-original"
+      },
+      {
+        "skill": "tailwindcss",
+        "logo": "tailwindcss-original"
+      },
+      {
+        "skill": "reactbootstrap",
+        "logo": "reactbootstrap-original"
+      },
+      {
+        "skill": "nodejs",
+        "logo": "nodejs-original-wordmark"
+      },
+      {
+        "skill": "postman",
+        "logo": "postman-original-wordmark"
+      },
+      {
+        "skill": "graphql",
+        "logo": "graphql-plain"
+      },
+      {
+        "skill": "nodemon",
+        "logo": "nodemon-original"
+      },
+      {
+        "skill": "npm",
+        "logo": "npm-original-wordmark"
+      },
+      {
+        "skill": "yarn",
+        "logo": "yarn-original-wordmark"
+      },
+      {
+        "skill": "git",
+        "logo": "git-original-wordmark"
+      },
+      {
+        "skill": "github",
+        "logo": "github-original-wordmark"
+      },
+      {
+        "skill": "netlify",
+        "logo": "netlify-original-wordmark"
+      },
+      {
+        "skill": "heroku",
+        "logo": "heroku-original-wordmark"
+      },
+
+      {
+        "skill": "firebase",
+        "logo": "firebase-plain-wordmark"
+      },
+      {
+        "skill": "mongodb",
+        "logo": "mongodb-original-wordmark"
+      },
+      {
+        "skill": "postgresql",
+        "logo": "postgresql-original-wordmark"
+      },
+      {
+        "skill": "mysql",
+        "logo": "mysql-original-wordmark"
+      },
+      {
+        "skill": "vscode",
+        "logo": "vscode-original-wordmark"
+      },
+      {
+        "skill": "amazonwebservices",
+        "logo": "amazonwebservices-original-wordmark"
+      },
+      {
+        "skill": "docker",
+        "logo": "docker-original-wordmark"
+      },
+      {
+        "skill": "jira",
+        "logo": "jira-original-wordmark"
+      },
+      {
+        "skill": "confluence",
+        "logo": "confluence-original-wordmark"
       }
     ]
   },
@@ -118,74 +224,50 @@
       {
         "title": "Qore AI",
         "category": "My Travel Blog for my post-university travels",
-        "image": "01.jpg",
-        "url": "https://www.canadianwanderlust.com"
+        "image": "01.png",
+        "url": "https://www.qoreai.com"
       },
       {
-        "title": "Fury Fighting Gear",
+        "title": "Salezilla",
         "category": "(offline now) A fighting gear company I started",
-        "image": "02.jpg",
-        "url": "http://www.timbakerdev.com"
+        "image": "02.png",
+        "url": "http://www.salezilla.io"
       },
       {
-        "title": "Original Thai Food",
-        "category": "Website I built for a restaurant I like in Thailand",
-        "image": "03.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+        "title": "School Solver",
+        "category": "The Marketplace for School Questions",
+        "image": "03.png",
+        "url": "https://school-solver.netlify.app/"
       },
       {
-        "title": "Resume Website",
+        "title": "Justice Reskill",
         "category": "A React based resume website template",
-        "image": "04.jpg",
-        "url": "http://www.timbakerdev.com"
+        "image": "04.png",
+        "url": "https://justice-reskill.netlify.app/"
       },
       {
-        "title": "Smirkspace",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
-        "image": "05.jpg",
-        "url": "http://www.smirkspace.com"
+        "title": "Linkly",
+        "category": "Free Custom URL Shortener",
+        "image": "05.png",
+        "url": "http://www.linklyhq.com"
       },
       {
-        "title": "Canadian Wanderlust",
-        "category": "My Travel Blog for my post-university travels",
-        "image": "06.jpg",
-        "url": "https://www.canadianwanderlust.com"
+        "title": "Psychometric Success",
+        "category": "Psychometric Success - 16 free practice aptitude tests",
+        "image": "06.png",
+        "url": "https://psychometric-success.com/"
       },
       {
-        "title": "Fury Fighting Gear",
-        "category": "(offline now) A fighting gear company I started",
-        "image": "01.jpg",
-        "url": "http://www.timbakerdev.com"
+        "title": "Wikijob",
+        "category": "Interview tips and practice aptitude tests for job seekers",
+        "image": "07.png",
+        "url": "https://wikijob.co.uk/"
       },
       {
-        "title": "Original Thai Food",
-        "category": "Website I built for a restaurant I like in Thailand",
-        "image": "02.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title": "Original Thai Food",
-        "category": "Website I built for a restaurant I like in Thailand",
-        "image": "03.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title": "Resume Website",
-        "category": "A React based resume website template",
-        "image": "04.jpg",
-        "url": "http://www.timbakerdev.com"
-      },
-      {
-        "title": "Smirkspace",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
-        "image": "05.jpg",
-        "url": "http://www.smirkspace.com"
-      },
-      {
-        "title": "Canadian Wanderlust",
-        "category": "My Travel Blog for my post-university travels",
-        "image": "06.jpg",
-        "url": "https://www.canadianwanderlust.com"
+        "title": "Your Repair Experts",
+        "category": "Easy, fast and quality services for your house",
+        "image": "08.png",
+        "url": "https://yourrepairexperts.netlify.app/"
       }
     ]
   }

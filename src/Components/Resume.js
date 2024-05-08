@@ -1,20 +1,20 @@
-import React, { Component } from "react";
-import Slide from "react-reveal";
+import React, { Component } from 'react'
+import Slide from 'react-reveal'
 
 class Resume extends Component {
   getRandomColor() {
-    let letters = "0123456789ABCDEF";
-    let color = "#";
+    let letters = '0123456789ABCDEF'
+    let color = '#'
     for (let i = 0; i < 6; i++) {
-      color += letters[Math.floor(Math.random() * 16)];
+      color += letters[Math.floor(Math.random() * 16)]
     }
-    return color;
+    return color
   }
 
   render() {
-    if (!this.props.data) return null;
+    if (!this.props.data) return null
 
-    const skillmessage = this.props.data.skillmessage;
+    const skillmessage = this.props.data.skillmessage
     const education = this.props.data.education.map(function (education) {
       return (
         <div key={education.school}>
@@ -25,8 +25,8 @@ class Resume extends Component {
           </p>
           <p>{education.description}</p>
         </div>
-      );
-    });
+      )
+    })
 
     const work = this.props.data.work.map(function (work) {
       return (
@@ -38,22 +38,13 @@ class Resume extends Component {
           </p>
           <p>{work.description}</p>
         </div>
-      );
-    });
-
-    const skills = this.props.data.skills.map((skills) => {
-      const backgroundColor = this.getRandomColor();
-      const className = "bar-expand " + skills.name.toLowerCase();
-      const width = skills.level;
-
-      return (
-        <li key={skills.name}>
-          <span style={{ width, backgroundColor }} className={className}></span>
-          <em>{skills.name}</em>
-        </li>
-      );
-    });
-
+      )
+    })
+    console.log(
+      '%cthis.props.data.skills',
+      'color:red;font-size:50px',
+      this.props.data.skills
+    )
     return (
       <section id="resume">
         <Slide left duration={1300}>
@@ -96,14 +87,28 @@ class Resume extends Component {
               <p>{skillmessage}</p>
 
               <div className="bars">
-                <ul className="skills">{skills}</ul>
+                {/* <ul className="skills">{skills}</ul> */}
+                <h3 align="center">Languages and Tools:</h3>
+
+                <p align="center">
+                  {this.props.data.skills.map(({ skill, logo }) => (
+                    <img
+                      key={logo}
+                      src={`https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/${skill}/${logo}.svg`}
+                      alt={skill}
+                      width="60"
+                      height="60"
+                      style={{ margin: 5 }}
+                    />
+                  ))}
+                </p>
               </div>
             </div>
           </div>
         </Slide>
       </section>
-    );
+    )
   }
 }
 
-export default Resume;
+export default Resume
