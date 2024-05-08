@@ -4,7 +4,7 @@
     "description": "Skilled Front-End Developer with a focus on React and TypeScript, excelling in creating responsive, high-performance web applications. Passionate about using cutting-edge technologies to improve user experiences and streamline development processes.",
     "image": "profilepic.jpg",
     "bio": "Hello! I'm a seasoned Front-End Developer with expertise in React and TypeScript, specialized in crafting responsive and high-performance web applications. My passion for design and technology merges with a strong computer science background, enabling me to deliver compelling user experiences and innovative solutions. I thrive in collaborative environments, constantly advancing my skills to stay at the forefront of web development trends. I'm driven to leverage my technical prowess to contribute effectively to projects and help businesses excel in the digital landscape.",
-    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+    "contactmessage": "Get in touch with me!",
     "email": "muhammadbilalbangash@hotmail.com",
     "phone": "+92-311-1808482",
     "github": "https://github.com/Bilal-Bangash",
@@ -20,7 +20,7 @@
     "social": [
       {
         "name": "facebook",
-        "url": "https://github.com/nordicgiant2/react-nice-resume",
+        "url": "https://www.facebook.com/MuhammadBilalBangashs",
         "className": "fa fa-facebook"
       },
       {
@@ -30,17 +30,17 @@
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url": "https://www.linkedin.com/in/mbbangash/",
         "className": "fa fa-linkedin"
       },
       {
         "name": "instagram",
-        "url": "http://instagram.com/tbaker_x",
+        "url": "http://instagram.com/bilalbangaxh",
         "className": "fa fa-instagram"
       },
       {
         "name": "github",
-        "url": "https://github.com/nordicgiant2/react-nice-resume",
+        "url": "https://github.com/Bilal-Bangash",
         "className": "fa fa-github"
       }
     ]

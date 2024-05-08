@@ -1,17 +1,17 @@
-import React, { Component } from "react";
-import { Fade, Slide } from "react-reveal";
+import React, { Component } from 'react'
+import { Fade, Slide } from 'react-reveal'
 
 class Contact extends Component {
   render() {
-    if (!this.props.data) return null;
+    if (!this.props.data) return null
 
-    const name = this.props.data.name;
-    const street = this.props.data.address.street;
-    const city = this.props.data.address.city;
-    const state = this.props.data.address.state;
-    const zip = this.props.data.address.zip;
-    const phone = this.props.data.phone;
-    const message = this.props.data.contactmessage;
+    const name = this.props.data.name
+    const street = this.props.data.address.street
+    const city = this.props.data.address.city
+    const state = this.props.data.address.state
+    const zip = this.props.data.address.zip
+    const phone = this.props.data.phone
+    const message = this.props.data.contactmessage
 
     return (
       <section id="contact">
@@ -117,7 +117,7 @@ class Contact extends Component {
                 </p>
               </div>
 
-              <div className="widget widget_tweets">
+              {/* <div className="widget widget_tweets">
                 <h4 className="widget-title">Latest Tweets</h4>
                 <ul id="twitter">
                   <li>
@@ -144,13 +144,13 @@ class Contact extends Component {
                     </b>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </aside>
           </Slide>
         </div>
       </section>
-    );
+    )
   }
 }
 
-export default Contact;
+export default Contact

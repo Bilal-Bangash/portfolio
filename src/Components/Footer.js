@@ -1,9 +1,9 @@
-import React, { Component } from "react";
-import Fade from "react-reveal";
+import React, { Component } from 'react'
+import Fade from 'react-reveal'
 
 class Footer extends Component {
   render() {
-    if (!this.props.data) return null;
+    if (!this.props.data) return null
 
     const networks = this.props.data.social.map(function (network) {
       return (
@@ -12,8 +12,8 @@ class Footer extends Component {
             <i className={network.className}></i>
           </a>
         </li>
-      );
-    });
+      )
+    })
 
     return (
       <footer>
@@ -23,11 +23,11 @@ class Footer extends Component {
               <ul className="social-links">{networks}</ul>
 
               <ul className="copyright">
-                <li>&copy; Copyright 2021 Nordic Giant</li>
+                <li>&copy; Copyright 2024 Beelal</li>
                 <li>
-                  Design by{" "}
+                  Design by{' '}
                   <a title="Styleshout" href="http://www.styleshout.com/">
-                    Styleshout
+                    M Bilal Bangash
                   </a>
                 </li>
               </ul>
@@ -41,8 +41,8 @@ class Footer extends Component {
           </div>
         </div>
       </footer>
-    );
+    )
   }
 }
 
-export default Footer;
+export default Footer
