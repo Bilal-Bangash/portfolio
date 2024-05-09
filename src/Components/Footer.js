@@ -26,7 +26,10 @@ class Footer extends Component {
                 <li>&copy; Copyright 2024 Beelal</li>
                 <li>
                   Design by{' '}
-                  <a title="Styleshout" href="http://www.styleshout.com/">
+                  <a
+                    title="M Bilal Bangash"
+                    href="https://m-bilal-bangash.netlify.app/"
+                  >
                     M Bilal Bangash
                   </a>
                 </li>
