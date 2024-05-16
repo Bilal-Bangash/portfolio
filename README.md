@@ -7,7 +7,7 @@
 ### 2. Run the project
 
 ```shell
-npm i
+npm install
 npm start
 ```
 
