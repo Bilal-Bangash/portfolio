@@ -1,6 +1,6 @@
 ### [LIVE PORTFOLIO DEMO](https://m-bilal-bangash.netlify.app)
 
-# Run Project
+# How to run this project?
 
 ### 1. Clone the project
 
